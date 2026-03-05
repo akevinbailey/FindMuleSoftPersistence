@@ -19,7 +19,7 @@ The scanner recursively searches MuleSoft XML flow files and reports:
 ### Rule 1 – File Connector Configuration
 Detects: `file:config`
 
-### Rule 2 – Persistent Object Store
+### Rule 2 – Persistent MuleSoft Object Store
 Detects: `<os:object-store ...>` Where: `persistent="false"` is NOT present
 
 ### Rule 3 – Persistent VM Queues
